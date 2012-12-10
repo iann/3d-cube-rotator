@@ -1,0 +1,29 @@
+<!doctype html>
+<head>
+  <meta name='content-type' content='text/html; charset=UTF-8' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'> 
+  <meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1'>
+  <title>IE 10 Rotate</title>
+  <link rel='stylesheet' href='style.css'>
+  <script src='jquery-1.4.2.min.js'></script>
+</head>
+<body>
+
+  <div id="box-container">
+    <div id="top">
+      Side 2
+    </div>
+    <div id="front" style="">
+      Side 1
+      <div id="ahh" style="border: solid 5px">
+        END OF LINE
+      </div>
+    </div>
+  </div>
+
+  <button type="button" onclick="$('#front').rotate_down_front(true);$('#top').rotate_down_top(true);">Flip Up</button>
+  <button type="button" onclick="$('#front').rotate_up_front(true);$('#top').rotate_up_top(true);">Flip Down</button>
+
+ <script src='box.js'></script> 
+</body>
+</html>
