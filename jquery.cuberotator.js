@@ -1,7 +1,7 @@
 /*
  * 3D Cube Rotator 
  * @version: 0.1 
- * @authors: Team Healthview
+ * @authors: Ian Moriarty and Evan Dana
  */
 
 //show top
